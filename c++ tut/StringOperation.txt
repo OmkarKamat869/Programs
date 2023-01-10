@@ -1,0 +1,19 @@
+Public class StringOperation
+{
+    public Static void main(String args[])
+    {
+        String str1 = args[0];
+        String str2 = args[1];
+        if(str1.compareTo(str2)==0)
+            System.out.println("Strings are equal");
+        else
+             System.out.println("Strings are not equal");
+        String str3 = str1.toLowercase();
+        String str4 = str2.toUpperCase();
+        System.out.println("String = "+str3+" , "+str4);
+        String str5 = str3.concat(str4);
+        System.out.println("Concatinated string = "+str5);
+        System.out.println("String length = "+str5.length);
+
+    }
+}
